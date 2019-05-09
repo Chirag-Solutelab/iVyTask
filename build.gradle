@@ -1,0 +1,40 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.0'
+        
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+
+ext {
+    supportDependencies = [
+            annotationProcessor : "com.jakewharton:butterknife-compiler:8.6.0",
+            butterknife         : "com.jakewharton:butterknife:8.6.0",
+            sdpgradle           : "com.intuit.sdp:sdp-android:1.0.4",
+            sspgradle           : "com.intuit.ssp:ssp-android:1.0.4",
+            cardView            : "com.android.support:cardview-v7:27.0.0"
+
+
+    ]
+}

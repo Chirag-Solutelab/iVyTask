@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">IVY Mobility Task</string>
+    <string name="enter_number_of_row">Enter Number of Row</string>
+    <string name="enter_number_of_colum">Enter Number of Colum</string>
+    <string name="submit">Submit</string>
+    <string name="view_seat">View Seat</string>
+    <string name="add_matrix">Add Matrix</string>
+    <string name="no_of_passenger">No Of Passenger</string>
+</resources>
